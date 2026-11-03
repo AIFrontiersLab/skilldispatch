@@ -26,3 +26,21 @@ Run the CLI demo:
 ## Tests
 
    pytest -q
+
+## Architecture
+
+![Architecture](docs/architecture.png)
+
+<details>
+<summary>Mermaid source</summary>
+
+```mermaid
+flowchart LR
+    A[User Input] --> B[FastAPI Server]
+    B --> C[Parse Skills]
+    C --> D[Map to AI Roles]
+    D --> E[Generate Roadmap]
+    E --> F[JSON Response]
+```
+
+</details>
