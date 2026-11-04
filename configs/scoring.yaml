@@ -1,0 +1,16 @@
+weights:
+  demand: 0.45
+  adjacency: 0.35
+  experience: 0.20
+confidence:
+  floor: 0.35
+  ceiling: 0.95
+  immediate: 0.85
+  strong: 0.72
+  promising: 0.55
+experience_modifiers:
+  junior: 0.55
+  early: 0.68
+  mid: 0.82
+  senior: 0.88
+  principal: 0.80

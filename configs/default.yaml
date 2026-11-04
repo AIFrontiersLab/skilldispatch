@@ -1,0 +1,18 @@
+app:
+  name: Skilldispatch
+  api_version: v1
+pipeline:
+  version: static-v3
+  max_target_roles: 8
+  max_roadmap_steps: 12
+  min_roadmap_weeks: 8
+  weeks_per_experience_year: 2
+features:
+  enable_alias_expansion: true
+  enable_adjacency_scoring: true
+  enable_market_demand_bias: true
+  enable_confidence_bands: true
+adapters:
+  llm_mode: disabled_static_scaffold
+  labor_market_mode: static_dictionary
+  resume_parser_mode: comma_separated_skills

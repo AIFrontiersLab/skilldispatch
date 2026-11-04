@@ -1,0 +1,13 @@
+{
+  "original_skills": ["data entry", "customer support"],
+  "target_roles": ["Data Annotation & Labeling", "AI Chatbot Operations"],
+  "estimated_time_weeks": 18,
+  "pipeline_version": "static-v3",
+  "roadmap": [
+    {
+      "phase": "1. Foundation",
+      "action": "Complete a supervised labeling project with written quality rubrics",
+      "priority": "High"
+    }
+  ]
+}

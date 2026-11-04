@@ -1,0 +1,22 @@
+[project]
+name = "skilldispatch"
+version = "0.3.0"
+description = "Translate legacy technical skills into actionable AI-adjacent career paths"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi",
+  "uvicorn",
+  "httpx",
+  "pydantic",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+skilldispatch = "skilldispatch.cli.main:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
